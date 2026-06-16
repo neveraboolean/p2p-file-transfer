@@ -1,0 +1,15 @@
+# Compiled Binaries / Executables
+*.out
+*.exe
+*.o
+*.obj
+sender
+receiver
+
+# OS Clutter
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
