@@ -9,7 +9,7 @@ A lightweight, zero-configuration peer-to-peer file transfer utility written in 
 * **Memory-Optimized Streaming:** Implements data splitting into fixed **4KB memory chunks**, mitigating risk of system RAM exhaustion and safely enabling multi-gigabyte file transfers.
 * **Custom Application Protocol:** Features a tailored application-layer protocol header to transmit file metadata dynamically and handle graceful cleanup in case of unexpected socket drops.
 
-## 🛠️ Tech Stack & Concepts
+## Tech Stack & Concepts
 
 * **Language:** C++
 * **Networking APIs:** POSIX Sockets (`sys/socket.h`, `arpa/inet.h`, `netinet/in.h`)
